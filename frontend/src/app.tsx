@@ -1,28 +1,38 @@
+import { ArrowUpRight, Home, Info, NotebookPen } from "lucide-react";
+
 export function App() {
   return (
     <>
       {/* Header */}
       <header>
-        <nav>
-          <ul className="flex justify-center items-center gap-12 h-20 font-bold text-xl bg-zinc-300  ">
-            <li className="border-b-4  border-b-red-700">
-              <a className="hover:text-red-700" href="#">Início</a>
-            </li>
-            <li className="border-b-4  border-b-red-700">
-              <a className="hover:text-red-700" href="#">Atividades</a>
-            </li>
-            <li className="border-b-4  border-b-red-700">
-
-              <a className="hover:text-red-700" href="#">Sobre</a>
-            </li>
+        <nav className="">
+          <ul className="flex justify-center items-center  gap-12 h-20 font-bold text-xl bg-zinc-300 w-full">
+            <div className="flex justify-center items-center gap-2" >
+            <Home className="size-6"/>
+              <li className="border-b-4  border-b-red-700 flex justify-center items-center gap-2 ">
+                <a className="hover:text-red-700" href="#">Início</a>
+              </li>
+            </div>
+            <div className="flex justify-center items-center gap-2" >
+              <NotebookPen className="size-6"/>
+              <li className="border-b-4  border-b-red-700 ">
+                <a className="hover:text-red-700" href="#">Atividades</a>
+              </li>
+            </div>
+            <div className="flex justify-center items-center gap-2" >
+            <Info className="size-6"/>
+              <li className="border-b-4  border-b-red-700">
+                <a className="hover:text-red-700" href="#">Sobre</a>
+              </li>              
+            </div>
           </ul>
         </nav>
       </header> 
 
       {/* Main */}
-      <main className="flex justify-center ">
-        <div className="flex flex-col items-center justify-center max-w-[900px]">
-          <h2 className="text-3xl text-center font-bold my-12 py-12 border-y-4 border-dashed border-red-700 px-64 w-full">Inteligência Artificial Desplugada</h2>
+      <main className="flex justify-center bg-gray-100 ">
+        <div className="flex flex-col items-center justify-center min-w-[800px] max-w-[900px] m-10 bg-white p-12 shadow-xl rounded">
+          <h2 className="text-3xl text-center font-bold my-12 py-12 border-y-4 border-dashed border-red-700 w-full">Inteligência Artificial Desplugada</h2>
 
           <p className="text-justify text-lg">Nosso portal foi desenvolvido para auxiliar professores do ensino médio na aplicação de <strong>atividades desplugadas</strong> que promovem o <strong>pensamento computacional</strong>. Estas atividades são alinhadas com a competência (EM13CO10) do novo documento complementar à BNCC, que visa a compreensão dos fundamentos da <strong>Inteligência Artificial</strong>, sua comparação com a inteligência humana e a análise de suas potencialidades, riscos e limites.</p>
           <br />
@@ -42,26 +52,27 @@ export function App() {
           </div>
           <p></p>
 
-          <button className="bg-red-700 text-lg p-6 w-[900px] mb-12 text-white hover:bg-red-600 font-bold tracking-widest">
+          <button className="bg-red-700 text-lg p-6 w-full mb-12 text-white hover:bg-red-600 font-bold tracking-widest flex justify-center gap-6 items-center">
             <a href="#">Acesse as atividades</a>
+            <ArrowUpRight className="size-7"/>
           </button>
 
           <p className="text-lg text-justify mb-12">A coleção pode ser utilizada prioritariamente com estudantes do ensino médio, não se restrigindo a somente uma única idade ou conhecimento prévio. As atividades foram desenvolvidas com base em projetos reconhecidos internacionalmente e são utilizadas em diversos países, destacando-se pela sua qualidade e eficácia pedagógica.</p>
 
-          <div className="flex flex-col text-xl mt-4 mb-16 gap-6">
-            <h3 className="font-bold ">Objetivo</h3>
+          <div className="flex flex-col text-lg mt-4 mb-16 gap-6">
+            <h3 className="font-bold text-xl">Objetivo</h3>
             <p className="text-justify">
               Capacitar professores e alunos com o conhecimento necessário para navegar no mundo cada vez mais digital e automatizado, desenvolvendo uma compreensão crítica da Inteligência Artificial e suas aplicações no mundo real.
             </p>
             <p className="text-justify">
-              Explore nosso portal e descubra como cada atividade pode transformar a sala de aula em um ambiente de aprendizado inovador e empolgante. Juntos, vamos preparar os alunos para os desafios e oportunidades do futuro tecnológico.
+              Explore nosso portal e descubra como cada atividade pode transformar a sala de aula em um ambiente de aprendizado e inovador. Juntos, vamos preparar os alunos para os desafios e oportunidades do futuro tecnológico.
             </p>
           </div>
         </div>
       </main>
       <footer>
         <div className="bg-gray-500">
-          <p>a </p>
+          <p className="text-gray-500">a</p>
         </div>
       </footer>
     </>  
