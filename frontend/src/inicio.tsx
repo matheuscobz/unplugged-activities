@@ -1,33 +1,20 @@
-import { ArrowUpRight, Home, Info, NotebookPen } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { Header } from "./header";
+import { useNavigate } from "react-router-dom";
 
-export function App() {
+
+
+export function Inicio() {
+  const navigate = useNavigate()
+  const routeChange = () => {
+    const path = `/atividades`
+    navigate(path)
+  }
+  
   return (
     <>
       {/* Header */}
-      <header>
-        <nav className="">
-          <ul className="flex justify-center items-center  gap-12 h-20 font-bold text-xl bg-zinc-300 w-full">
-            <div className="flex justify-center items-center gap-2" >
-            <Home className="size-6"/>
-              <li className="border-b-4  border-b-red-700 flex justify-center items-center gap-2 ">
-                <a className="hover:text-red-700" href="#">Início</a>
-              </li>
-            </div>
-            <div className="flex justify-center items-center gap-2" >
-              <NotebookPen className="size-6"/>
-              <li className="border-b-4  border-b-red-700 ">
-                <a className="hover:text-red-700" href="#">Atividades</a>
-              </li>
-            </div>
-            <div className="flex justify-center items-center gap-2" >
-            <Info className="size-6"/>
-              <li className="border-b-4  border-b-red-700">
-                <a className="hover:text-red-700" href="#">Sobre</a>
-              </li>              
-            </div>
-          </ul>
-        </nav>
-      </header> 
+      <Header />
 
       {/* Main */}
       <main className="flex justify-center bg-gray-100 ">
@@ -52,8 +39,8 @@ export function App() {
           </div>
           <p></p>
 
-          <button className="bg-red-700 text-lg p-6 w-full mb-12 text-white hover:bg-red-600 font-bold tracking-widest flex justify-center gap-6 items-center">
-            <a href="#">Acesse as atividades</a>
+          <button onClick={routeChange} className="bg-red-700 text-lg p-6 w-full mb-12 text-white hover:bg-red-600 font-bold tracking-widest flex justify-center gap-6 items-center">
+            <a href="/atividades">Acesse as atividades</a>
             <ArrowUpRight className="size-7"/>
           </button>
 
