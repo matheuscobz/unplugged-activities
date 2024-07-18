@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client'
 import { Inicio } from './inicio'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Atividades } from './atividades'
+import { Atividades } from './atividades/selecionar-atividade'
+import { Turing } from './atividades/turing'
+import { ReconhecimentoDeImagens } from './atividades/reconhecimento-de-imagens'
+import { RedeAdversariaGenerativa } from './atividades/rede-adversaria-generativa'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +16,18 @@ const router = createBrowserRouter([
   {
     path: "/atividades",
     element: <Atividades />
+  },
+  {
+    path:"/atividades/teste-de-turing",
+    element: <Turing />
+  },
+  {
+    path:"/atividades/reconhecimento-de-imagens",
+    element: <ReconhecimentoDeImagens />
+  },
+  {
+    path:"/atividades/rede-adversaria-generativa",
+    element: <RedeAdversariaGenerativa />
   },
   // {
   //   path: "/sobre",

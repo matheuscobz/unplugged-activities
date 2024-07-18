@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 export function Inicio() {
   const navigate = useNavigate()
+  
   const routeChange = () => {
     const path = `/atividades`
     navigate(path)
@@ -57,6 +58,7 @@ export function Inicio() {
           </div>
         </div>
       </main>
+      
       <footer>
         <div className="bg-gray-500">
           <p className="text-gray-500">a</p>
