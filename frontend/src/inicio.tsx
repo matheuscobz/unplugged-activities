@@ -58,12 +58,6 @@ export function Inicio() {
           </div>
         </div>
       </main>
-      
-      <footer>
-        <div className="bg-gray-500">
-          <p className="text-gray-500">a</p>
-        </div>
-      </footer>
     </>  
   )
 }

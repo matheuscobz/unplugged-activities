@@ -47,9 +47,9 @@ export function Atividades(){
       </div>
 
       <footer>
-        <div className="flex items-center justify-center bg-black text-white py-6">
+        {/* <div className="flex items-center justify-center bg-black text-white py-6">
           <a href="https://www.flaticon.com/br" title="">Ícones criados por CapVora - Flaticon</a>
-        </div>
+        </div> */}
       </footer>
     </div>
     
