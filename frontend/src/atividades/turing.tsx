@@ -60,17 +60,49 @@ export function Turing() {
           </ol>
 
           <h2 className="text-2xl font-bold ">
-            <span className="border-b-4 border-red-700">Vídeos</span>
+            <span className="border-b-4 border-red-700">Vídeo</span>
           </h2>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Exercícios</span>
           </h2>
+          <ol className="list-decimal list-inside">
+            <li>Quais perguntas foram mais eficazes para distinguir entre a máquina e o humano? Por quê?</li>
+            <li>Como as respostas da máquina diferiram das respostas do humano?</li>
+            <li>Que tipo de perguntas seriam difíceis para uma máquina responder ?</li>
+            <li>Como os mensageiros influenciaram a dinâmica do jogo?</li>
+            <li>Como você melhoraria o Teste de Turing para torná-lo mais eficaz?</li>
+          </ol>
+          
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Discussão</span>
           </h2>
+          <ul className="list-disc list-inside">
+            <li>Discuta com os alunos se acham que um computador pode "pensar" como um humano ou se está apenas seguindo instruções programadas.</li>
+            <br />
+            <p><strong>Exemplo:</strong> Um exemplo simples é uma calculadora que consegue resolver cálculos matemáticos, mas não entende o que está fazendo, comparado a um humano que pode explicar o raciocínio por trás da solução.</p>
+          </ul>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Conteúdo adicional</span>
           </h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Alan_Turing" target="_blank">Alan Turing</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Teste_de_Turing" target="_blank">Teste de Turing</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Inteligência_artificial" target="_blank">Inteligência Artificial</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://www.oracle.com/br/chatbots/what-is-a-chatbot/" target="_blank">Chatbots</a>
+            
+            </li>
+          </ul>
+
         </div>
       </section>
     </div>

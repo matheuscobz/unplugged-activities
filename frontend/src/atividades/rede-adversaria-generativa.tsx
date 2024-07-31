@@ -66,18 +66,44 @@ export function RedeAdversariaGenerativa(){
             </div>
 
 
-          <h2 className="text-2xl font-bold ">
-            <span className="border-b-4 border-red-700">Vídeos</span>
+            <h2 className="text-2xl font-bold ">
+            <span className="border-b-4 border-red-700">Vídeo</span>
           </h2>
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Exercícios</span>
           </h2>
+
+          <ol className="list-decimal list-inside marker:font-bold">
+            <li className="">Qual foi a taxa de precisão do grupo D em identificar corretamente os desenhos reais e falsos? Houve algum desenho que foi mal classificado?</li>
+            <li> Como os desenhos criados pelo grupo G evoluíram ao longo da atividade? Quais foram as principais mudanças feitas com base no feedback recebido?</li>
+            <li>Quais características adicionais poderiam ser introduzidas para tornar o processo de avaliação mais desafiador para o grupo D?</li>
+            <li>Quantos desenhos foram criados pelos grupos R e G durante a atividade? Quantos feedbacks foram fornecidos pelo grupo D?</li>
+          </ol>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Discussão</span>
           </h2>
+          <ul className="list-disc list-inside">
+            <li>Qual é a importância do feedback fornecido pelo grupo D para a melhoria dos desenhos gerados pelo grupo G?</li>
+            <br />
+            <p><strong>Sugestão:</strong> Discuta como o feedback contínuo é essencial para a melhoria dos exemplos gerados em uma rede adversária generativa. Explique como o feedback ajuda a ajustar e refinar o gerador para criar exemplos mais realistas.</p>
+          </ul>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Conteúdo adicional</span>
           </h2>
+
+          <ul className="list-disc list-inside">
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Inteligência_artificial" target="_blank">Inteligência Artificial</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://aws.amazon.com/pt/what-is/gan/" target="_blank">Rede Adversária Generativa</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://aws.amazon.com/pt/what-is/neural-network/" target="_blank">Rede Neural</a>
+            </li>
+          </ul>
         </div>
       </section>
     </div>

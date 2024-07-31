@@ -8,24 +8,20 @@ export function HeaderAtividades(){
           
           <button className="hover:text-red-700">
             <div className="flex justify-center items-center" >
-              <div className="flex justify-center items-center gap-6 ">
-                <ArrowLeft className="size-6"/>
-                <a className="" href="/atividades">Atividades</a>
-              </div>
+                <a className="flex justify-center items-center gap-2  flex-row-reverse" href="/atividades">Atividades
+                  <ArrowLeft className="size-6 flex-shrink-0"/>
+                </a> 
             </div>
           </button>
 
           <ul className="flex justify-center items-center gap-12 h-24 font-bold w-full">
-
-
-            
           </ul>
+
           <button className="hover:text-red-700">
             <div className="flex justify-center items-center" >
-              <div className="flex justify-center items-center gap-6 ">
-                <a className="" href="/">Início</a>
-                <ArrowRight className="size-6"/>
-              </div>
+                <a className="flex justify-center items-center gap-2" href="/">Início
+                  <ArrowRight className="size-6 flex-shrink-0"/>
+                </a>
             </div>
           </button>
         </nav>

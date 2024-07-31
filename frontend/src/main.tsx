@@ -7,6 +7,7 @@ import { Atividades } from './atividades/selecionar-atividade'
 import { Turing } from './atividades/turing'
 import { ReconhecimentoDeImagens } from './atividades/reconhecimento-de-imagens'
 import { RedeAdversariaGenerativa } from './atividades/rede-adversaria-generativa'
+import { Sobre } from './sobre'
 
 const router = createBrowserRouter([
   {
@@ -29,10 +30,10 @@ const router = createBrowserRouter([
     path:"/atividades/rede-adversaria-generativa",
     element: <RedeAdversariaGenerativa />
   },
-  // {
-  //   path: "/sobre",
-  //   element: <Sobre />
-  // }
+  {
+    path: "/sobre",
+    element: <Sobre />
+  }
 ])
 
 

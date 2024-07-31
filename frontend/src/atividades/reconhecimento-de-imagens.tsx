@@ -49,7 +49,7 @@ export function ReconhecimentoDeImagens(){
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Passos</span>
           </h2>
-          <ol className="list-decimal list-inside">
+          <ol className="list-decimal list-inside marker:font-bold">
             <li>Dividir os alunos em 3 grupos: A, B e C.</li>
             <li>O grupo A pega uma imagem da pilha de cartões de foto e cria 2 desenhos diferentes em 30 segundos cada.</li>
             <li>O grupo A passa os desenhos para o grupo B.</li>
@@ -61,17 +61,43 @@ export function ReconhecimentoDeImagens(){
           </ol>
 
           <h2 className="text-2xl font-bold ">
-            <span className="border-b-4 border-red-700">Vídeos</span>
+            <span className="border-b-4 border-red-700">Vídeo</span>
           </h2>
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Exercícios</span>
           </h2>
+
+          <ol className="list-decimal list-inside marker:font-bold">
+            <li className="">Quantas imagens foram usadas no total durante a atividade? Quantas características diferentes foram identificadas no final?</li>
+            <li>Como a qualidade dos desenhos criados pelo grupo A afetou a capacidade do grupo B de identificar características?</li>
+            <li>Qual foi a taxa de precisão na classificação das imagens pelo grupo C? Houve alguma imagem que foi classificada incorretamente?</li>
+            <li>Quais novas características poderiam ser adicionadas à tabela para melhorar o reconhecimento de imagens?</li>
+          </ol>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Discussão</span>
           </h2>
+          <ul className="list-disc list-inside">
+            <li>Como a adição de novas características à tabela pode melhorar a capacidade de classificação das imagens mais complexas?</li>
+            <br />
+            <p><strong>Sugestão:</strong> Discuta como isso pode ajudar a criar padrões mais complexos, permitindo uma melhor distinção entre categorias de imagens mais complexas a serem classificadas pelos participantes.</p>
+          </ul>
+
           <h2 className="text-2xl font-bold ">
             <span className="border-b-4 border-red-700">Conteúdo adicional</span>
           </h2>
+
+          <ul className="list-disc list-inside">
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Inteligência_artificial" target="_blank">Inteligência Artificial</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Sistema_de_reconhecimento_facial" target="_blank">Reconhecimento facial</a>
+            </li>
+            <li>
+              <a className="underline-offset-0 text-red-700 hover:underline" href="https://pt.wikipedia.org/wiki/Arte_de_inteligência_artificial" target="_blank">Criação de imagens com Inteligência Artificial</a>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
